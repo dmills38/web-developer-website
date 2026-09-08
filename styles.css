@@ -1,0 +1,22 @@
+/* Design variables */
+
+:root {
+    --color-navy: #102a43;
+     --color-navy-dark: #071c2c;
+    --color-blue: #2563eb;
+    --color-blue-dark: #1d4ed8;
+    --color-blue-light: #eaf2ff;
+
+    --color-text: #334e68;
+    --color-text-light: #627d98;
+    --color-white: #ffffff;
+    --color-background: #f7f9fc;
+    --color-border: #d9e2ec;
+
+    --shadow-small: 0 4px 14px rgba(16, 42, 67, 0.08);
+    --shadow-medium: 0 16px 40px rgba(16, 42, 67, 0.12);
+
+    --border-radius: 14px;
+    --max-width: 1120px;
+    --transition: 180ms ease;
+}
