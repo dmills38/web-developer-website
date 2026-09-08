@@ -20,3 +20,12 @@
     --max-width: 1120px;
     --transition: 180ms ease;
 }
+
+/* Reset and global styles */
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
