@@ -212,7 +212,24 @@
         I'll get back to you to discuss your website and next steps.
     </p>
 
-    <form action="" method="post">
+    <form
+        name="website-inquiry"
+        method="POST"
+        data-netlify="true"
+        data-netlify-honeypot="bot-field"
+        >
+    <input
+        type="hidden"
+        name="subject"
+        value="New website inquiry from %{formName}"
+        >
+
+    <p class="hidden-field">
+        <label>
+            Do not fill this out:
+            <input name="bot-field">
+        </label>
+    </p>
 
         <div class="form-group">
             <label for="name">Name</label>
