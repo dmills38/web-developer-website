@@ -130,3 +130,13 @@ header {
     line-height: 1.1;
     text-decoration: none;
  }
+
+ .logo span {
+    display: block;
+    margin-top: 4px;
+    color: var(--color-blue);
+    font-size: 0.70rem;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+ }
