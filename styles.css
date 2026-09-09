@@ -170,3 +170,13 @@ nav ul a::after {
     transform: scaleX(0);
     transition: transform var(--transition);
 }
+
+nav ul a:hover,
+nav ul a:focus-visible {
+    transform: scaleX(1);
+}
+
+nav ul a:hover::after,
+nav ul a:focus-visible::after {
+    transform: scaleX(1);
+}
