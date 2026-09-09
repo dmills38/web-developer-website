@@ -158,3 +158,15 @@ header {
     text-decoration: none;
     transition: var(--transition);
 }
+
+nav ul a::after {
+    position: absolute;
+    right: 0;
+    bottom: -8px;
+    left: 0;
+    height: 2px;
+    background: var(--color-blue);
+    content: "";
+    transform: scaleX(0);
+    transition: transform var(--transition);
+}
