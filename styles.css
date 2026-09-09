@@ -196,3 +196,17 @@ nav ul a:focus-visible::after {
         radial-gradient(circle at 85% 80%, rgba(16, 42, 67, 0.09), transparent 35%),
         linear-gradient(180deg, #ffffff 0%, #f4f8ff 100%);
 }
+
+#home > p {
+    max-width: 720px;
+    margin-bottom: 34px;
+    color: var(--color-text-light);
+    font-size: clamp(1.05rem, 2vh, 1.2rem);
+}
+
+.hero-actions {
+    display: flex;
+    justify-content: center;
+    gap: 14px;
+    flex-wrap: wrap;
+}
