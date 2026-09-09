@@ -111,3 +111,14 @@ section > h2 + p {
     color: var(--color-text-light);
     font-size: 1.08rem;
 }
+
+/* Navigation */
+
+header {
+    position: sticky;
+    z-index: 1000;
+    top: 0;
+    border-bottom: 1px solid rgba(217, 226, 236, 0.8);
+    background: rgba(255, 255, 255, 0.94);
+    backdrop-filter: blur(14px);
+}
