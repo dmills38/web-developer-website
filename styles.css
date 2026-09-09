@@ -140,3 +140,12 @@ header {
     letter-spacing: 0.12em;
     text-transform: uppercase;
  }
+
+ nav ul {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    gap: 30px;
+    list-style: none;
+ }
