@@ -99,3 +99,15 @@ p {
 section {
     padding: 100px max(24px, calc(100% - var(--max-width)) / 2);
 }
+
+section > h2,
+section > h2 + p {
+    text-align: center;
+}
+
+section > h2 + p {
+    max-width: 660px;
+    margin: 0 auto 52px;
+    color: var(--color-text-light);
+    font-size: 1.08rem;
+}
