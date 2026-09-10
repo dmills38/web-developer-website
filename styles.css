@@ -232,3 +232,32 @@ nav ul a:focus-visible::after {
         box-shadow var(--transition),
         transform var(--transition);
 }
+
+.button:hover,
+#portfolio article > a:last-child:hover {
+    transform: translateY(-2px);
+}
+
+.button-primary,
+#portfolio article > a:last-child {
+    color: var(--color-white);
+    background: var(--color-blue);
+    box-shadow: 0 9px 22px rgba(37, 99, 235, 0.28);
+}
+
+.button-primary:hover,
+#portfolio article > a:last-child:hover {
+    background: var(--color-blue-dark);
+    box-shadow: 0 12px 28px rgba(37, 99, 235, 0.28);
+}
+
+.button-secondary {
+    border-color: var(--color-border);
+    color: var(--color-navy);
+    background: var(--color-white);
+}
+
+.button-secondary:hover {
+    border-color: var(--color-blue);
+    color: var(--color-blue);
+}
