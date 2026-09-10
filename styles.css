@@ -400,3 +400,49 @@ nav ul a:focus-visible::after {
     font-weight: 800;
     letter-spacing: 0.08em;
 }
+
+/* Process */
+
+#process {
+    background: var(--color-white);
+}
+
+#process ol {
+    display: grid;
+    max-width: var(--max-width);
+    margin: 0 auto;
+    padding: 0;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 22px;
+    counter-reset: process-step;
+    list-style: none;
+}
+
+#process li {
+    position: relative;
+    padding: 30px 24px;
+    border: 1px solid var(--color-border);
+    border-radius: var(--border-radius);
+    background: var(--color-white);
+    counter-increment: process-step;
+}
+
+#process li::before {
+    display: flex;
+    width: 44px;
+    height: 44px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 22px;
+    border-radius: 50px;
+    color: var(--color-white);
+    background: var(--color-blue);
+    content: counter(process-step);
+    font-weight: 800;
+}
+
+#process li p {
+    margin-bottom: 0;
+    color: var(--color-text-light);
+}
+
