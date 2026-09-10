@@ -261,3 +261,16 @@ nav ul a:focus-visible::after {
     border-color: var(--color-blue);
     color: var(--color-blue);
 }
+
+/* Portfolio */
+
+#portfolio {
+    background-color: var(--color-white);
+}
+
+.portfolio {
+    display: grid;
+    max-width: 900px;
+    margin-inline: auto;
+    gap: 30px;
+}
