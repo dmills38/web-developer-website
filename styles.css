@@ -329,3 +329,26 @@ nav ul a:focus-visible::after {
     margin-top: 6px;
     margin-bottom: 30px;
 }
+
+/* Services */
+
+#services {
+    background: var(--color-background);
+}
+
+.services-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    max-width: 980px;
+    margin-inline: auto;
+    gap: 24px;
+}
+
+.service-card {
+    position: relative;
+    padding: 36px;
+    border: 1px solid var(--color-border);
+    border-radius: var(--border-radius);
+    background: var(--color-white);
+    box-shadow: var(--shadow-small);
+}
