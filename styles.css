@@ -352,3 +352,51 @@ nav ul a:focus-visible::after {
     background: var(--color-white);
     box-shadow: var(--shadow-small);
 }
+
+.service-card > h3 {
+    font-size: 1.45rem;
+}
+
+.service-card > p {
+    color: var(--color-text-light);
+}
+
+.service-card ul {
+    margin: 24px 0 0;
+    padding: 0;
+    list-style: none;
+}
+
+.service-card li {
+    position: relative;
+    margin-bottom: 13px;
+    padding-left: 30px;
+}
+
+.service-card li::before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: var(--color-blue);
+    content: "✓";
+    font-weight: 900;
+}
+
+.featured-service {
+    border: 2px solid var(--color-blue);
+    box-shadow: 0 18px 42px rgba(37, 99, 235, 0.13);
+}
+
+.featured-service::before {
+    position: absolute;
+    top: -14px;
+    right: 24px;
+    padding: 5px 12px;
+    border-radius: 999px;
+    color: var(--color-white);
+    background: var(--color-blue);
+    content: "COMPLETE CARE";
+    font-size: 0.7rem;
+    font-weight: 800;
+    letter-spacing: 0.08em;
+}
