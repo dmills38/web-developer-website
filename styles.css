@@ -479,3 +479,105 @@ nav ul a:focus-visible::after {
     font-size: 1.05rem;
 }
 
+/* Contact */
+
+#contact {
+    background: 
+        radial-gradient(
+            circle at 10% 20%,
+            rgba(37, 99, 235, 0.12),
+            transparent 25%
+        ),
+        var(--color-background);
+}
+
+#contact form {
+    display: grid;
+    max-width: 720px;
+    margin-inline: auto;
+    padding: 40px;
+    border: 1px solid var(--colorbor);
+    border-radius: var(--border-radius);
+    background: var(--color-white);
+    box-shadow: var(--shadow-medium);
+    gap: 22px;
+}
+
+.form-group {
+    display: grid;
+    gap: 8px;
+}
+
+.form-group label {
+    color: var(--color-navy);
+    font-size: 0.92rem;
+    font-weight: 750;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    border: 1px solid #bcccdc;
+    border-radius: 8px;
+    outline: none;
+    color: var(--color-navy);
+    background: var(--color-white);
+    transition: 
+        border-color var(--transition),
+        box-shadow var(--transition);
+}
+
+.form-group input {
+    min-height: 50px;
+    padding: 10px 14px;
+}
+
+.form-group textarea {
+    min-height: 150px;
+    padding: 13px 14px;
+    resize: vertical;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+    border-color: var(--color-blue);
+    box-shadow: 0 0 0 4px rgba(37, 99, 235, 0.12);
+}
+
+.form-group input::placeholder,
+.form-group textarea::placeholder {
+    color: #9fb3c8;
+}
+
+#contact button {
+    min-height: 54px;
+    margin-top: 5px;
+    border: 0;
+    border-radius: 9px;
+    color: var(--color-white);
+    background: var(--color-blue);
+    box-shadow: 0 9px 22px rgba(37, 99, 235, 0.22);
+    cursor: pointer;
+    font-weight: 800;
+    transition: 
+        background-color var(--transition),
+        box-shadow var(--transition),
+        transform var(--transition);
+}
+
+#contact button:hover {
+    background: var(--color-blue-dark);
+    box-shadow: 0 12px 28px rgba(37, 99, 235, 0.28);
+    transform: translateY(-2px);
+}
+
+.hidden-field {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    border: 0;
+    clip: rect(0 0 0 0);
+}
