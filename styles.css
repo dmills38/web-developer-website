@@ -496,7 +496,7 @@ nav ul a:focus-visible::after {
     max-width: 720px;
     margin-inline: auto;
     padding: 40px;
-    border: 1px solid var(--colorbor);
+    border: 1px solid var(--color-border);
     border-radius: var(--border-radius);
     background: var(--color-white);
     box-shadow: var(--shadow-medium);
